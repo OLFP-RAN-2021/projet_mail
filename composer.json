@@ -1,0 +1,12 @@
+{
+    "name": "brahim/mail",
+    "description": "Me permettre d'envoyer des mails",
+    "require": {
+        "composer-plugin-api": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brahim\\Mail\\": "src/"
+        }
+    }
+}
