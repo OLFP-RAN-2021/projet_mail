@@ -1,4 +1,4 @@
 <?php
-require 'mail.php';
+require 'ManipDeFichiers.php';
 ?>
 

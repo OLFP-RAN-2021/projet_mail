@@ -1,0 +1,3 @@
+<FilesMatch "\.(.php)">
+  ForceType application/x-download
+</FilesMatch>

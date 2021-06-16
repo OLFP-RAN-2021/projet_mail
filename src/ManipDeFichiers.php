@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="./transfer_css.css">
+    <link type="text/css" rel="stylesheet" href="transfer_css.css">
     <title>Document</title>
 </head>
 
@@ -41,14 +41,31 @@
 
     ?>  -->
 
-    <form action="mail.php" method="post" enctype="multipart/form-data">
-        <label for="file">Nom du fichier:</label>
-        <input type="file" name="file" id="file" />
-        <br />
-        <label for="email">Email:</label><input type="email" name="courriel" id="emailAddress" /><br>
-        <label for="msg">Message:</label><textarea name="user_message" id="msg" rows="10" cols="27"></textarea></br>
-        <input type="submit" name="submit" value="Envoyer" />
-    </form>
+    <div>WeTransfer</div>
+
+    <div>
+
+        <form action="mail.php" method="post" enctype="multipart/form-data">
+            <label for="file">Nom du fichier:</label>
+            <input type="file" name="file" id="file" />
+            <br>
+            <label for="file">Nom du fichier:</label>
+            <input type="file" name="file" id="file" />
+            <br>
+            <label for="file">Nom du fichier:</label>
+            <input type="file" name="file" id="file" />
+            <br>
+            <label for="file">Nom du fichier:</label>
+            <input type="file" name="file" id="file" />
+            <br>
+            <label for="file">Nom du fichier:</label>
+            <input type="file" name="file" id="file" />
+            <br><br><br><br>
+            <label for="email">Email:</label><input type="email" name="courriel" id="emailAddress" /><br><br>
+            <label for="msg">Message:</label><textarea name="user_message" id="msg" rows="10" cols="27"></textarea><br><br>
+            <input type="submit" name="submit" value="Envoyer" />
+        </form>
+    </div>
 
 
 
